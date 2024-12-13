@@ -1,0 +1,39 @@
+.navbar{
+    background-color: #0A3981;
+    height: 2.5rem;
+}
+
+.nav1 .collapse{
+    font-weight: 500;
+}
+
+.nav1 .collapse ul li a{
+    color: white;
+    transition: 0.5s;
+}
+
+.nav1 .collapse ul li a:hover{
+    color: #FF7F3E;
+}
+
+.navbar2 .navbar{
+    height: 6rem;
+}
+
+.navbar2 form{
+    border-radius: 30px;
+}
+
+.dropdown-menu li a{
+    color: #FF7F3E;
+}
+
+.contact-login-button .contact .navbar-nav .nav-item .nav-link svg{
+    color: black;
+    font-size: medium;
+    transition: 0.5s;
+}
+
+.contact-login-button .contact .navbar-nav .nav-item .nav-link svg:hover{
+    color: #FF7F3E;
+}
