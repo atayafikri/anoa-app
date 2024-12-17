@@ -20,20 +20,42 @@
     height: 6rem;
 }
 
+.navbar2 .navbar-nav .nav-item a{
+    font-weight: 500;
+    color: #000000;
+    transition: 0.5;
+}
+
+.navbar2 .navbar-nav .nav-item a:hover{
+    color: #FF7F3E;
+}
+
 .navbar2 form{
     border-radius: 30px;
 }
 
-.dropdown-menu li a{
+/* .dropdown-menu li a{
+    color: #FF7F3E;
+} */
+
+.contact-login .contact li a{
+    color: #000000;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.5;
+}
+
+.contact-login .contact li a:hover{
     color: #FF7F3E;
 }
 
-.contact-login-button .contact .navbar-nav .nav-item .nav-link svg{
-    color: black;
-    font-size: medium;
-    transition: 0.5s;
+.contact-login .login li a{
+    color: #000000;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.5;
 }
 
-.contact-login-button .contact .navbar-nav .nav-item .nav-link svg:hover{
+.contact-login .login li a:hover{
     color: #FF7F3E;
 }
