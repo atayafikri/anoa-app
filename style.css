@@ -59,3 +59,13 @@
 .contact-login .login li a:hover{
     color: #FF7F3E;
 }
+
+.email{
+    background-color: azure;
+    border-radius: 10px;
+}
+
+.email button{
+    font-weight: 500;
+
+}
