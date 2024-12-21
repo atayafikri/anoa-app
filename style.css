@@ -1,5 +1,5 @@
 .navbar{
-    background-color: #0A3981;
+    background-color: #183354;
     height: 2.5rem;
 }
 
@@ -34,11 +34,20 @@
     border-radius: 30px;
 }
 
+.navbar2 .ul-kiri-nav2 .navbar-nav .nav-item a{
+    color: #000000;
+    transition: 0.5;
+}
+
+.navbar2 .ul-kiri-nav2 .navbar-nav .nav-item a:hover{
+    color: #FF7F3E;
+}
+
 /* .dropdown-menu li a{
     color: #FF7F3E;
 } */
 
-.contact-login .contact li a{
+/* .contact-login .contact li a{
     color: #000000;
     cursor: pointer;
     font-weight: 500;
@@ -58,7 +67,7 @@
 
 .contact-login .login li a:hover{
     color: #FF7F3E;
-}
+} */
 
 .email{
     background-color: azure;
