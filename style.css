@@ -7,3 +7,103 @@
     list-style: none;
     text-decoration: none;
 }
+
+#logo{
+    font-weight: 600;
+}
+
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+    .email h4{
+        font-size: 12px;
+    }
+
+    .explore h3{
+        font-size: 12px;
+    }
+
+    .roti-telor1 img{
+        margin-bottom: 25px;
+    }
+
+    .roti-telor2 img{
+        margin-bottom: 25px;
+    }
+
+    .avatar img{
+        margin-left: 60px;
+    }
+
+    .orang{
+        margin-left: 35px;
+    }
+
+    .explore button{
+       margin-left: 77px;
+       font-size: 12px;
+    }
+}
+
+/* Desktop Screen */
+@media only screen and (min-width: 992px) {
+    .logo1{
+        margin-right: 30px;
+    }
+    
+    .roti-telor1 img{
+        margin-right: 2px;
+    }
+    
+    .roti-telor2 img{
+        margin-left: 20px;
+        margin-right: 100px;
+    }
+    
+    .avatar img{
+        margin-left: 60px;
+    }
+
+    .explore button{
+        margin-left: 200px;
+    }
+}
+
+/* High Screen Resolution */
+@media only screen and (min-width: 995px) {
+    .roti-telor1 img{
+        margin-right: 1px;
+    }
+}
+
+/* Tablet Screen */
+@media screen and (min-width: 800px) and (max-width: 900px) {
+    #logo{
+        margin-right: 2000px;
+    }
+
+    .explore h3{
+        font-size: 10px;
+    }
+
+    .logo1{
+        margin-right: 30px;
+    }
+    
+    .roti-telor1 img{
+        margin-right: 2px;
+    }
+    
+    .roti-telor2 img{
+        margin-left: 20px;
+        margin-right: 100px;
+    }
+    
+    .avatar img{
+        margin-left: 60px;
+    }
+
+    .explore button{
+        margin-left: 200px;
+    }
+}
