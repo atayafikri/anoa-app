@@ -12,16 +12,35 @@
     font-weight: 600;
 }
 
+#logo-sign-inpage{
+    font-weight: 600;
+}
+
+#menu-kiri li a{
+    color: #000000;
+    transition: 0.5s;
+}
+
+#menu-kiri li a:hover{
+    color: #344CB7;
+}
+
+#menu-kanan li a{
+    color: #000000;
+    transition: 0.5s;
+}
+
+#menu-kanan li a:hover{
+    color: #344CB7;
+}
+
 
 /* mobile */
 @media only screen and (max-width: 600px) {
-    .email h4{
-        font-size: 12px;
-    }
-
-    .explore h3{
-        font-size: 12px;
-    }
+   .email input{
+    width: 60%;
+    margin: auto;
+   }
 
     .roti-telor1 img{
         margin-bottom: 25px;
@@ -32,22 +51,35 @@
     }
 
     .avatar img{
-        margin-left: 60px;
+        margin-left: 70px;
     }
 
     .orang{
-        margin-left: 35px;
+        margin-left: 40px;
     }
 
     .explore button{
-       margin-left: 77px;
-       font-size: 12px;
+        margin-top: 10px;
+        margin-left: 15px;
+        font-size: 13px;
+    }
+
+    .form-login h3{
+        margin-top: 55px;
+    }
+
+    .form-login img{
+        margin-bottom: 10px;
     }
 }
 
 /* Desktop Screen */
 @media only screen and (min-width: 992px) {
     .logo1{
+        margin-right: 30px;
+    }
+
+    .logo-sign-in{
         margin-right: 30px;
     }
     
@@ -66,6 +98,14 @@
 
     .explore button{
         margin-left: 200px;
+    }
+
+    .form-login h3{
+        margin-top: -45px;
+    }
+
+    .form-login img{
+        margin-top: 45px;
     }
 }
 
